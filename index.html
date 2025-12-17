@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Font Awesone Cdn-->
+     
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+
+
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container" id="container">
+
+            <header class="navbar" id="navbar">
+                <ul>
+                    <i class="fa-solid fa-bars"></i>
+                    <li><a href="#container">Bugün</a></li>
+                    <li><a href="#table">3 Günlük</a></li>
+                    <li><a href="#hours">Saatlik</a></li>
+                </ul>
+            </header>
+            <div class="title" >
+                <h1>Weather App</h1>
+            </div>
+            <div class="weather-box" >
+                <form action="#" class="city-search">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Bir Şehir İsmi Giriniz.." class="city-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    
+                </form>
+                <div class="info">
+                    <div class="city">
+                        _____, ____
+                    </div>
+                    <div class="weather-icon">
+                        <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" alt="weather icon">    
+                    </div>
+                    <div class="weather-degree">
+                       ___
+                    </div>
+                    <div class="weather-info">
+                        ________
+                    </div>
+                    <div class="bottom-info">
+                        <div class="left">
+                            <div class="cloud">
+                        <i class="fa-solid fa-water"></i>
+                        <p>Nem</p>
+                        </div>
+                        <div class="cloud-value">
+                            __
+                        </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <p>Rüzgar</p>
+                    </div>
+                    <div class="wind-value">
+                           ____
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            <div class="table" id="table">
+                
+            </div>
+            <div class="hours" id="hours">
+                <div class="title">
+
+                </div>
+                <div class="hours-weather">
+                
+                </div>
+            </div>
+            
+        </div>
+        <script src="script.js?v=2"></script>
+
+
+
+       
+
+
+        
+    </body>
+</html>
