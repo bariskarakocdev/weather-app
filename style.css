@@ -24,8 +24,9 @@ body{
     top:0;
     left:0;
     height: 40%;
-    max-width:20rem;
+    max-width:16rem;
     min-width:10rem;
+    z-index:21;
 
 }
 .navbar ul{
@@ -278,3 +279,4 @@ body{
     width: 1rem;
 
 }
+
